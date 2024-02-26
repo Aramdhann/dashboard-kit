@@ -10,3 +10,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.sidebar-button {
+  cursor: pointer;
+  padding: 15px 25px;
+  transition: opacity 0.3s ease;
+  border-left: 2px solid transparent;
+}
+
+.sidebar-button:hover,
+.navbar ul a.active {
+  background-color: #37373b;
+  border-left: 2px solid white;
+  color: white;
+}
+
+.cek {
+  border: 2px solid red;
+}

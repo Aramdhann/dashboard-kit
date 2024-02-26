@@ -42,7 +42,7 @@ const Login = () => {
         </form>
         <div className="flex gap-1 justify-center text-xs">
           <p>Don't have an account? </p>
-          <a href="" className="text-blue-500 hover:opacity-75">
+          <a href="" className="text-blue-500 hover:text-blue-400">
             Sign Up
           </a>
         </div>

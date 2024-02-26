@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SideNavbar from "components/SideNavbar";
 
 const Home = () => {
   return (
-    <div className='text-red-500'>Home</div>
-  )
-}
+    <div>
+      <SideNavbar />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

@@ -5,10 +5,6 @@ const Card = lazy(() => import("components/Card.jsx"));
 
 const Home = () => {
   const [showSidebar, setShowSidebar] = useState(true);
-  
-  const autoHide = () => {
-    
-  }
 
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);

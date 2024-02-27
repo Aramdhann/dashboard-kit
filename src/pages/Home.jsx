@@ -2,6 +2,7 @@ import React, { lazy, Suspense, useState } from "react";
 const SideNavbar = lazy(() => import("components/SideNavbar.jsx"));
 const Navbar = lazy(() => import("components/Navbar.jsx"));
 const Card = lazy(() => import("components/Card.jsx"));
+const Loading = lazy(() => import("components/Loading.jsx"));
 
 const Home = () => {
   const [showSidebar, setShowSidebar] = useState(true);
@@ -12,7 +13,7 @@ const Home = () => {
 
 
   return (
-    <Suspense fallback={"Loading..."}>
+    <Suspense fallback={<Loading/>}>
       <div className="flex">
         <SideNavbar showSidebar={showSidebar} />
         <div className="flex-1 bg-slate-200 min-h-screen">

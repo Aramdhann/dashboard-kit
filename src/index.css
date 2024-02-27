@@ -12,6 +12,8 @@
 }
 
 .sidebar-button {
+  width: 100%;
+  display: flex;
   cursor: pointer;
   padding: 15px 25px;
   transition: opacity 0.3s ease;
@@ -23,8 +25,22 @@
   background-color: #37373b;
   border-left: 2px solid white;
   color: white;
+  width: 100%;
+  display: flex;
 }
 
 .cek {
   border: 2px solid red;
 }
+/* 
+@media (max-width: 700px) {
+  #nav-side {
+    display: hidden;
+  }
+}
+
+@media (min-width: 700px) {
+  #nav-side {
+    display: block;
+  }
+} */

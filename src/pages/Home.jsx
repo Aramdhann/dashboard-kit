@@ -11,9 +11,8 @@ const Home = () => {
     setShowSidebar(!showSidebar);
   };
 
-
   return (
-    <Suspense fallback={<Loading/>}>
+    <Suspense fallback={<Loading />}>
       <div className="flex">
         <SideNavbar showSidebar={showSidebar} />
         <div className="flex-1 bg-slate-200 min-h-screen">

@@ -1,0 +1,33 @@
+{
+    "tickets": [
+      {
+        "id": 1,
+        "customerName": "John Doe",
+        "date": "2024-02-26T09:30:00",
+        "priority": "High",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum justo id urna ultrices, et mattis elit ultrices."
+      },
+      {
+        "id": 2,
+        "customerName": "Jane Smith",
+        "date": "2024-02-25T15:45:00",
+        "priority": "Medium",
+        "details": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      {
+        "id": 3,
+        "customerName": "Alice Johnson",
+        "date": "2024-02-24T11:20:00",
+        "priority": "Low",
+        "details": "Vestibulum eget lacus at quam vehicula iaculis vitae eget nisi. Suspendisse dictum, est id lacinia interdum, libero justo consectetur urna, ac tincidunt mauris est et velit."
+      },
+      {
+        "id": 4,
+        "customerName": "Bob Brown",
+        "date": "2024-02-23T14:10:00",
+        "priority": "High",
+        "details": "Duis et velit non est tempus varius. Fusce a lectus vitae nunc scelerisque vulputate."
+      }
+    ]
+  }
+  
